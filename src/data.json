@@ -22,7 +22,7 @@
     "associates":[
         {
             "name": "gezpomotor",
-            "image":"src./assets/associates/gezpomotor.jpg"
+            "image":"./assets/associates/gezpomotor.jpg"
         },
         {
             "name": "elogia",
