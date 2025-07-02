@@ -20,9 +20,9 @@ function App() {
           </nav>
         </header>
         <main>
-            <button className='size-16 fixed right-4 bottom-4 cursor-pointer'>
-              <img src="./src/assets/whatsapp.png" alt="whatsapp" />
-            </button>
+          <button className='size-16 fixed right-4 bottom-4 cursor-pointer z-[2]'>
+            <img src="./src/assets/whatsapp.png" alt="whatsapp" />
+          </button>
           <section className='text-white px-20 pt-30 pb-20 bg-cover bg-bottom'
           style={{ backgroundImage: `url(./src/assets/fondo.jpg)` }}
           >
@@ -40,6 +40,15 @@ function App() {
               ></FeatureCard>
             ))}
 
+          </section>
+          <section className='flex justify-center items-center flex-col h-40 overflow-hidden relative'>
+            <p className='text-white absolute z-[1]'>Echa un vistazo a nuestro <br /> portafolio de servicios ⬇️</p>
+            <div className='flex justify-center items-center overflow-x-visible brightness-30  h-full z-0  w-full ml-[0]'>
+              <img src="./src/assets/associates/gezpomotor.jpg" alt="gezpomotor" className='w-full h-fit max-h-[100%]' />
+              <img src="./src/assets/associates/elogia.jpg" alt="elogia" className='w-full h-fit max-h-[100%]' />
+              <img src="./src/assets/associates/la-gloriosa.jpg" alt="la-gloriosa" className='w-full h-fit max-h-[100%]' />
+              <img src="./src/assets/associates/HONDA.jpg" alt="HONDA" className='w-full h-fit max-h-[100%]' />
+            </div>
           </section>
         </main>
     </>
