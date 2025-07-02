@@ -1,19 +1,19 @@
 {
     "features":[
         {
-        "icon": "/assets/features/calendar.svg",
+        "icon": "./assets/features/calendar.svg",
         "alt": "calendar",
         "title": "Recibe tus diseños a tiempo",
         "description": "Trabajamos con procesos optimizados para que tus entregas lleguen siempre a tiempo, sin retrasos y con la calidad que necesitas."
         },
         {
-        "icon": "/assets/features/flag.svg",
+        "icon": "./assets/features/flag.svg",
         "alt": "flag",
         "title": "cumple tus metas",
         "description": "Transformamos tus objetivos en resultados medibles. Trabajamos junto a ti para que cada campaña impulse el crecimiento de tu negocio"
         },
         {
-        "icon": "/assets/features/file.svg",
+        "icon": "./assets/features/file.svg",
         "alt": "file",
         "title": "asesórate con profesionales",
         "description": "No estás solo. Te guiamos en cada paso con asesoría honesta y personalizada para que tomes las mejores decisiones."
@@ -22,19 +22,19 @@
     "associates":[
         {
             "name": "gezpomotor",
-            "image":"src/assets/associates/gezpomotor.jpg"
+            "image":"src./assets/associates/gezpomotor.jpg"
         },
         {
             "name": "elogia",
-            "image": "/assets/associates/elogia.jpg"
+            "image": "./assets/associates/elogia.jpg"
         },
         {
             "name": "la-gloriosa",
-            "image": "/assets/associates/la-gloriosa.jpg"
+            "image": "./assets/associates/la-gloriosa.jpg"
         },
         {
             "name": "HONDA",
-            "image": "/assets/associates/HONDA.jpg"
+            "image": "./assets/associates/HONDA.jpg"
         }
     ],
     "services":[
