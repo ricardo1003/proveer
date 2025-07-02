@@ -44,11 +44,15 @@ function App() {
           <section className='flex justify-center items-center flex-col h-40 overflow-hidden relative'>
             <p className='text-white absolute z-[1]'>Echa un vistazo a nuestro <br /> portafolio de servicios ⬇️</p>
             <div className='flex justify-center items-center overflow-x-visible brightness-30  h-full z-0  w-full ml-[0]'>
-              <img src="./src/assets/associates/gezpomotor.jpg" alt="gezpomotor" className='w-full h-fit max-h-[100%]' />
-              <img src="./src/assets/associates/elogia.jpg" alt="elogia" className='w-full h-fit max-h-[100%]' />
-              <img src="./src/assets/associates/la-gloriosa.jpg" alt="la-gloriosa" className='w-full h-fit max-h-[100%]' />
-              <img src="./src/assets/associates/HONDA.jpg" alt="HONDA" className='w-full h-fit max-h-[100%]' />
+              {data["associates"].map((associate, index) => (
+                <img src={associate.image} alt={associate.name} className='w-full h-fit max-h-[100%]' />
+              ))}
             </div>
+          </section>
+          <section className='grid grid-cols-3 gap-4 px-20 py-10 bg-[#3E4095]'>
+              {data["services"].map((service, index) => (
+                <div className="bg-white aspect-square min-w-fit"></div>
+              ))}
           </section>
         </main>
     </>

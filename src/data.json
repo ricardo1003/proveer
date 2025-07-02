@@ -18,5 +18,43 @@
         "title": "asesórate con profesionales",
         "description": "No estás solo. Te guiamos en cada paso con asesoría honesta y personalizada para que tomes las mejores decisiones."
         }
+    ],
+    "associates":[
+        {
+            "name": "gezpomotor",
+            "image":"src/assets/associates/gezpomotor.jpg"
+        },
+        {
+            "name": "elogia",
+            "image": "/src/assets/associates/elogia.jpg"
+        },
+        {
+            "name": "la-gloriosa",
+            "image": "/src/assets/associates/la-gloriosa.jpg"
+        },
+        {
+            "name": "HONDA",
+            "image": "/src/assets/associates/HONDA.jpg"
+        }
+    ],
+    "services":[
+        { 
+              
+        },
+        {
+
+        },
+        {
+
+        },
+        {
+
+        },
+        {
+
+        },
+        {
+
+        }
     ]
 }
