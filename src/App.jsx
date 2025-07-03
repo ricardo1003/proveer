@@ -41,12 +41,17 @@ function App() {
             ))}
 
           </section>
-          <section className='flex justify-center items-center flex-col h-40 overflow-hidden relative'>
-            <p className='text-white absolute z-[1]'>Echa un vistazo a nuestro <br /> portafolio de servicios ⬇️</p>
-            <div className='flex justify-center items-center overflow-x-visible brightness-30  h-full z-0  w-full ml-[0]'>
-              {data["associates"].map((associate, index) => (
-                <img src={associate.image} alt={associate.name} className='w-full h-fit max-h-[100%]' />
-              ))}
+          <section className='relative flex items-center flex-col h-[214.55px] overflow-hidden'>
+            <p className='flex items-center text-white z-[1] h-[50%]'>Más de 100 empresas de todo el mundo confían en nosotros <img src="./assets/colombian-emoji-iphone.png" alt="colombian-emoji-iphone" className='inline-block h-5' /> </p>
+            <div className='relative flex justify-center items-center overflow-visible z-0 w-full h-[50%] '>
+              <div className="absolute py-4 left-0 flex flex-nowrap items-center  gap-8 h-full  invert brightness-0  carrouselAnimation">
+                {data["associates"].map((associate, index) => (
+                    <img src={associate.image} alt={associate.name} className='relative block max-h-full max-w-[200px]' />
+                  ))}
+                {data["associates"].map((associate, index) => (
+                  <img src={associate.image} alt={associate.name} className='relative block max-h-full max-w-[200px]' />
+                ))}  
+              </div>
             </div>
           </section>
           <section className='grid grid-cols-3 gap-4 px-20 py-10 bg-[#3E4095]'>

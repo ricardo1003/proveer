@@ -20,22 +20,58 @@
         }
     ],
     "associates":[
-        {
-            "name": "gezpomotor",
-            "image":"./assets/associates/gezpomotor.jpg"
-        },
-        {
+            {
+            "name": "banasan",
+            "image":"./assets/associates/banasan.png"
+            },
+            {
+            "name": "camara-de-comercio",
+            "image":"./assets/associates/camara-de-comercio.png"
+            },
+            {
+            "name": "city-opticas",
+            "image":"./assets/associates/city-opticas.png"
+            },
+            {
+            "name": "corporagros",
+            "image":"./assets/associates/corporagros.png"
+            },
+            {
             "name": "elogia",
-            "image": "./assets/associates/elogia.jpg"
-        },
-        {
-            "name": "la-gloriosa",
-            "image": "./assets/associates/la-gloriosa.jpg"
-        },
-        {
+            "image":"./assets/associates/elogia.png"
+            },
+            {
+            "name": "hero",
+            "image":"./assets/associates/hero.png"
+            },
+            {
             "name": "HONDA",
-            "image": "./assets/associates/HONDA.jpg"
-        }
+            "image":"./assets/associates/HONDA.png"
+            },
+            {
+            "name": "la-gloriosa",
+            "image":"./assets/associates/la-gloriosa.png"
+            },
+            {
+            "name": "petroil",
+            "image":"./assets/associates/petroil.png"
+            },
+            {
+            "name": "SanDel",
+            "image":"./assets/associates/SanDel.png"
+            },    
+            {
+            "name": "SHACMAN",
+            "image": "./assets/associates/SHACMAN.png"
+            },
+            {
+            "name": "shotsy",
+            "image": "./assets/associates/shotsy.png"
+            },
+            {
+            "name": "wiwa",
+            "image": "./assets/associates/wiwa.png"
+            }
     ],
     "services":[
         { 
