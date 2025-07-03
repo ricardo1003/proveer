@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-        <header className='bg-white w-full h-16 p-4 flex justify-between items-center'>
+        <header className='fixed bg-white w-full h-20 p-4 z-10 flex justify-between items-center shadow-black/25 shadow-md'>
           <img src="./assets/logo.png" alt="logo" />
           <nav>
             <ul className='flex gap-4 font-bold'>
@@ -19,7 +19,7 @@ function App() {
             </ul>
           </nav>
         </header>
-        <main>
+        <main className='pt-20'>
           <button className='size-16 fixed right-4 bottom-4 cursor-pointer z-[2]'>
             <img src="./assets/whatsapp.png" alt="whatsapp" />
           </button>
