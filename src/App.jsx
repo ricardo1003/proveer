@@ -42,7 +42,7 @@ function App() {
 
           </section>
           <section className='relative flex items-center flex-col h-[214.55px] overflow-hidden'>
-            <p className='flex items-center text-white z-[1] h-[50%]'>Más de 100 empresas de todo el mundo confían en nosotros <img src="./assets/colombian-emoji-iphone.png" alt="colombian-emoji-iphone" className='inline-block h-5' /> </p>
+            <p className='flex items-center text-white z-[1] h-[50%]'>Más de 100 empresas en toda Colombia confían en nosotros<img src="./assets/colombian-emoji-iphone.png" alt="colombian-emoji-iphone" className='inline-block h-5 ml-1' /> </p>
             <div className='relative flex justify-center items-center overflow-visible z-0 w-full h-[50%] '>
               <div className="absolute py-4 left-0 flex flex-nowrap items-center  gap-8 h-full  invert brightness-0  carrouselAnimation">
                 {data["associates"].map((associate, index) => (

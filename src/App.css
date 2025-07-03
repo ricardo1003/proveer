@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 .carrouselAnimation {
-    animation: carrouselAnimation 10s linear infinite;
-    -webkit-animation: carrouselAnimation 20s linear infinite;
+    animation: carrouselAnimation 40s linear infinite;
+    -webkit-animation: carrouselAnimation 40s linear infinite;
 }
 
 @keyframes carrouselAnimation {
