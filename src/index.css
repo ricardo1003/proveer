@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+.TT-Norms{
+    font-family: 'TT Norms', sans-serif;
+}
+.Inter{
+    font-family: "Inter", sans-serif;
+}
