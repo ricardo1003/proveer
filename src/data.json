@@ -1,24 +1,4 @@
 {
-    "features":[
-        {
-        "icon": "./assets/features/calendar.svg",
-        "alt": "calendar",
-        "title": "Recibe tus diseños a tiempo",
-        "description": "Trabajamos con procesos optimizados para que tus entregas lleguen siempre a tiempo, sin retrasos y con la calidad que necesitas."
-        },
-        {
-        "icon": "./assets/features/flag.svg",
-        "alt": "flag",
-        "title": "cumple tus metas",
-        "description": "Transformamos tus objetivos en resultados medibles. Trabajamos junto a ti para que cada campaña impulse el crecimiento de tu negocio"
-        },
-        {
-        "icon": "./assets/features/file.svg",
-        "alt": "file",
-        "title": "asesórate con profesionales",
-        "description": "No estás solo. Te guiamos en cada paso con asesoría honesta y personalizada para que tomes las mejores decisiones."
-        }
-    ],
     "associates":[
             {
             "name": "banasan",
@@ -27,6 +7,10 @@
             {
             "name": "camara-de-comercio",
             "image":"./assets/associates/camara-de-comercio.png"
+            },
+            {
+            "name": "HONDA",
+            "image":"./assets/associates/HONDA.png"
             },
             {
             "name": "city-opticas",
@@ -43,10 +27,6 @@
             {
             "name": "hero",
             "image":"./assets/associates/hero.png"
-            },
-            {
-            "name": "HONDA",
-            "image":"./assets/associates/HONDA.png"
             },
             {
             "name": "la-gloriosa",
@@ -75,22 +55,82 @@
     ],
     "services":[
         { 
-
+            "title": "Avisos y Estructuras",
+            "description": "Diseñamos e instalamos soluciones visuales que hacen destacar tu marca, desde letreros modernos hasta vallas de gran formato.",
+            "list":{
+                "Avisos en acrílico": "elegantes, resistentes y personalizables.",
+                "Neon Flex": "iluminación creativa, flexible y de bajo consumo.",
+                "Vallas": "máxima visibilidad en exteriores.",
+                "Estructuras": "soporte seguro y a medida para tus ideas."
+            },
+            "image":"./assets/services/the-real-burger.jpeg",
+            "alt":"the-real-burger.jpeg"
+        },
+        { 
+            "title": "Señalización",
+            "description": "Organiza y guía con señalética clara, funcional y alineada a tu marca. Perfecta para espacios comerciales, oficinas o entornos públicos.",
+            "list":{
+                "None1": "Señales informativas y de seguridad",
+                "None2": "Diseños personalizados",
+                "None3": "Instalación en interiores y exteriores"
+            },
+            "image":"./assets/services/exit.jpeg",
+            "alt":"exit"
+        },
+        { 
+            "title": "Gigantografías",
+            "description": "Lleva tu mensaje al siguiente nivel con impresiones de gran formato que captan miradas. Ideales para publicidad exterior, eventos y espacios de alto tráfico.",
+            "list":{
+                "None1": "Alta calidad y durabilidad",
+                "None2": "Impacto visual a gran escala",
+                "None3": "Materiales resistentes al clima"
+            },
+            "image":"./assets/services/billboard.jpeg",
+            "alt":""
+        },
+        { 
+            "title": "Promocionales empresariales",
+            "description": "Refuerza tu identidad de marca con productos personalizados que conectan con tu audiencia y fidelizan clientes.",
+            "list":{
+                "Camisas y gorras" : "ideales para uniformes o eventos.",
+                "Souvenirs" : "detalles que dejan huella.",
+                "Mugs" : "útiles, visibles y 100% personalizables.",
+                "Agendas" : "organización y presencia todo el año."
+            },
+            "image":"./assets/services/metal-water-bottle.jpeg",
+            "alt":"metal-water-bottle"
+        },
+        { 
+            "title": "Marketing Digital",
+            "description": "Conecta con tus clientes en el momento y lugar adecuados. Diseñamos estrategias digitales que impulsan tu marca y generan resultados medibles.",
+            "list":{
+                "None1": "Gestión de redes sociales",
+                "None2": "Campañas pagas (SEM y Social Ads)",
+                "None3": "Contenido creativo y enfocado en conversión"
+            },
+            "image":"./assets/services/metal-water-bottle.jpeg",
+            "alt":"metal-water-bottle"
+        }
+    ],
+    "features":[
+        {
+        "icon": "./assets/features/calendar.svg",
+        "alt": "calendar",
+        "title": "Recibe tus diseños a tiempo",
+        "description": "Trabajamos con procesos optimizados para que tus entregas lleguen siempre a tiempo, sin retrasos y con la calidad que necesitas."
         },
         {
-
+        "icon": "./assets/features/flag.svg",
+        "alt": "flag",
+        "title": "cumple tus metas",
+        "description": "Transformamos tus objetivos en resultados medibles. Trabajamos junto a ti para que cada campaña impulse el crecimiento de tu negocio"
         },
         {
-
-        },
-        {
-
-        },
-        {
-
-        },
-        {
-
+        "icon": "./assets/features/file.svg",
+        "alt": "file",
+        "title": "asesórate con profesionales",
+        "description": "No estás solo. Te guiamos en cada paso con asesoría honesta y personalizada para que tomes las mejores decisiones."
         }
     ]
+    
 }

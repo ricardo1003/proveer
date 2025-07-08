@@ -1,0 +1,17 @@
+export default function Service({index, image, alt, title, description, list }) {
+
+  return (
+    <div className={`${index % 2 === 0 ? "flex-row" : "flex-row-reverse"} flex justify-between gap-10`}>
+        <figure className="w-[50%] h-[408px] overflow-hidden flex items-center justify-center rounded-[29px]">
+            <img src={image} alt={alt} className="rounded-[29px] w-full"/>
+        </figure>
+        <div className="w-[50%] text-[20px] flex flex-col gap-[18px] justify-start">
+            <h2 className="text-[55px] font-bold">{title}</h2>
+            <p className="">{description}</p>
+            <ul className="list-disc pl-5">
+                {Object.entries(list).map(([key, value], i) => ( <li> <p>{key.indexOf("None") === -1 ? <b>{key}: </b> : "" } {value}</p> </li>))}
+            </ul>
+        </div>
+    </div>
+  )
+}
