@@ -57,6 +57,10 @@ function App() {
                 </Service>
               ))}
           </section>
+          <section className='text-white text-center py-14 bg-gradient-to-t from-[rgba(99,134,255,0.95)] to-[#3e4095]'>
+            <h3 className='text-[55px] font-bold mb-6 leading-none px-[40px]' >Soluciones publicitarias para hacer visible tu marca</h3>
+            <p className='px-[89px]'>En <b>Proveer</b> llevamos más de 18 años ayudando a empresas a comunicar sus ideas con calidad, impacto y rapidez. Todo lo que necesitas en impresión, señalización y marketing visual en un solo lugar.</p>
+          </section>
           <section className='bg-white py-10 px-20 flex  gap-15 Inter'>
             {data["features"].map((feature, index) => (
               <FeatureCard
