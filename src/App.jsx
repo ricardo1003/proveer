@@ -61,16 +61,20 @@ function App() {
             <h3 className='text-[55px] font-bold mb-6 leading-none px-[40px]' >Soluciones publicitarias para hacer visible tu marca</h3>
             <p className='px-[89px]'>En <b>Proveer</b> llevamos más de 18 años ayudando a empresas a comunicar sus ideas con calidad, impacto y rapidez. Todo lo que necesitas en impresión, señalización y marketing visual en un solo lugar.</p>
           </section>
-          <section className='bg-white py-10 px-20 flex  gap-15 Inter'>
-            {data["features"].map((feature, index) => (
-              <FeatureCard
-                key={`feature ${index}`}
-                icon={feature.icon}
-                alt={feature.alt}
-                title={feature.title}
-                description={feature.description}
-              ></FeatureCard>
-            ))}
+          <section className='bg-white py-10 px-20 flex flex-col'>
+            <h3 className='text-[30px] font-bold'>Resultados que marcan la diferencia</h3>
+            <p className='mt-[11px] mb-11'>En <b>Proveer</b> ayudamos a las empresas a destacar con <b>soluciones gráficas efectivas</b></p>
+            <div className='flex gap-15 Inter'>
+              {data["features"].map((feature, index) => (
+                <FeatureCard
+                  key={`feature ${index}`}
+                  icon={feature.icon}
+                  alt={feature.alt}
+                  title={feature.title}
+                  description={feature.description}
+                ></FeatureCard>
+              ))}
+            </div>
 
           </section>
         </main>
