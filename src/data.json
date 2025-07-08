@@ -131,6 +131,34 @@
         "title": "asesórate con profesionales",
         "description": "No estás solo. Te guiamos en cada paso con asesoría honesta y personalizada para que tomes las mejores decisiones."
         }
+    ],
+    "contactanos":[
+        {
+            "description":"Av. Ferrocarril 29E - 110",
+            "icon": "./assets/contacts/map-pointer.svg",
+            "alt": "map pointer"
+        },
+        {
+            "description":"+57 300 416 6350",
+            "icon": "./assets/contacts/telephone.svg",
+            "alt": "telephone"
+        },
+        {
+            "description":"ventas@proveercol.com",
+            "icon": "./assets/contacts/mail.svg",
+            "alt": "mail"
+        },
+        {
+            "description":"@Proveer_publicidad",
+            "icon": "./assets/contacts/instagram.svg",
+            "alt": "instagram"
+        },
+        {
+            "description":"Proveer Impresos y Publicitarios",
+            "icon": "./assets/contacts/facebook.svg",
+            "alt": "facebook"
+        }
     ]
+
     
 }

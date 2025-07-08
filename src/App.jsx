@@ -75,7 +75,21 @@ function App() {
                 ></FeatureCard>
               ))}
             </div>
-
+          </section>
+          <section className='bg-white flex items-center'>
+              <picture className='w-[50%] overflow-hidden brightness-50'>
+                <img src="./assets/proveer-sede.png" alt="proveer-sede" className='scale-150 translate-y-10 translate-x-30'/>
+              </picture>
+              <div className='w-[50%] px-[135px] py-[57px]'>
+                <h3 className='text-[45px] font-bold block mt-auto'>¿TIENES PREGUNTAS?</h3>
+                <ul>
+                  {data["contactanos"].map((contact, index) => (
+                    <li className='flex gap-9 my-[17px]'><img src={contact["icon"]} alt={contact["alt"]} className='inline-block'/><p className='text-[15.2px] flex flex-col'>{
+                      index === 0 ? <b className='text-[21px]'>VISITANOS</b> : index === 1 ? <b className='text-[21px]'>CONTÁCTANOS</b> : "" 
+                    } {contact["description"]}</p></li>
+                  ))}
+                </ul>
+              </div>
           </section>
         </main>
     </>
