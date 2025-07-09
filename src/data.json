@@ -126,8 +126,8 @@
         "description": "Transformamos tus objetivos en resultados medibles. Trabajamos junto a ti para que cada campaña impulse el crecimiento de tu negocio"
         },
         {
-        "icon": "./assets/features/file.svg",
-        "alt": "file",
+        "icon": "./assets/features/person.svg",
+        "alt": "person",
         "title": "asesórate con profesionales",
         "description": "No estás solo. Te guiamos en cada paso con asesoría honesta y personalizada para que tomes las mejores decisiones."
         }
