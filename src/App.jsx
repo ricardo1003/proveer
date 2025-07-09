@@ -57,12 +57,12 @@ function App() {
               ))}
           </section>
           <section className='text-white text-center py-14 bg-gradient-to-t from-[#586ccc] to-[#3e4095]'>
-            <h3 className='text-[55px] font-bold mb-6 leading-none px-[40px]' >Soluciones publicitarias para hacer visible tu marca</h3>
-            <p className='px-[89px]'>En <b>Proveer</b> llevamos más de 18 años ayudando a empresas a comunicar sus ideas con calidad, impacto y rapidez. Todo lo que necesitas en impresión, señalización y marketing visual en un solo lugar.</p>
+            <h3 className='text-[55px] font-bold mb-6 leading-none px-[40px] Raleway' >Soluciones publicitarias para hacer visible tu marca</h3>
+            <p className='px-[89px] Inter'>En <b>Proveer</b> llevamos más de 18 años ayudando a empresas a comunicar sus ideas con calidad, impacto y rapidez. Todo lo que necesitas en impresión, señalización y marketing visual en un solo lugar.</p>
           </section>
           <section className='bg-white py-10 px-20 flex flex-col'>
-            <h3 className='text-[30px] font-bold'>Resultados que marcan la diferencia</h3>
-            <p className='mt-[11px] mb-11'>En <b>Proveer</b> ayudamos a las empresas a destacar con <b>soluciones gráficas efectivas</b></p>
+            <h3 className='text-[30px] font-bold Raleway'>Resultados que marcan la diferencia</h3>
+            <p className='mt-[11px] mb-11 Inter'>En <b>Proveer</b> ayudamos a las empresas a destacar con <b>soluciones gráficas efectivas</b></p>
             <div className='flex gap-15 Inter'>
               {data["features"].map((feature, index) => (
                 <FeatureCard
@@ -82,11 +82,11 @@ function App() {
                 <img src="./assets/proveer-sede.png" alt="proveer-sede" className='scale-150 translate-y-10 translate-x-30'/>
               </picture>
               <div className='w-[50%] px-[135px] py-[57px]'>
-                <h3 className='text-[45px] font-bold block mt-auto'>¿TIENES PREGUNTAS?</h3>
+                <h3 className='text-[45px] font-bold Raleway block mt-auto'>¿TIENES PREGUNTAS?</h3>
                 <ul>
                   {data["contactanos"].map((contact, index) => (
-                    <li className='flex gap-9 my-[17px]'><img src={contact["icon"]} alt={contact["alt"]} className='inline-block'/><p className='text-[15.2px] flex flex-col'>{
-                      index === 0 ? <b className='text-[21px]'>VISITANOS</b> : index === 1 ? <b className='text-[21px]'>CONTÁCTANOS</b> : "" 
+                    <li className='flex gap-9 my-[17px] Inter'><img src={contact["icon"]} alt={contact["alt"]} className='inline-block'/><p className='text-[15.2px] flex flex-col'>{
+                      index === 0 ? <b className='text-[21px] Raleway'>VISITANOS</b> : index === 1 ? <b className='text-[21px] Raleway'>CONTÁCTANOS</b> : "" 
                     } {contact["description"]}</p></li>
                   ))}
                 </ul>

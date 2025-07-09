@@ -6,8 +6,8 @@ export default function FeatureCard({ index, icon, alt, title, description }) {
     <div className="relative flex items-center justify-center">
       <div className="h-full p-8 flex flex-col items-center bg-[#5271ff] rounded-xl text-center text-white relative z-[2]">
         <img src={icon} alt={alt} className="w-16 aspect-square invert"/>
-        <h4 className="text-[21px] mt-[12px] mb-4 leading-none uppercase font-bold">{title}</h4>
-        <p>{description}</p>
+        <h4 className="text-[21px] mt-[12px] mb-4 leading-none uppercase font-bold Raleway">{title}</h4>
+        <p className="Inter">{description}</p>
       </div>
       <div className={`absolute z-1 size-[134.3023256%] bg-radial ${colors[index]} to-black/0 to-70%`}/>
     </div>
